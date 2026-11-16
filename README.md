@@ -56,6 +56,9 @@ npm run dev
 # 执行代码检查
 npm run lint
 
+# 执行端到端测试
+npx playwright test
+
 # 构建生产版本
 npm run build
 ```
@@ -66,7 +69,9 @@ npm run build
 
 ```text
 .
+├── docs/                   # 测试与发布规范
 ├── e2e/                    # Playwright 端到端测试
+├── public/                 # 静态资源
 ├── server/                 # 演示服务端
 ├── src/
 │   ├── assets/             # 图片资源
